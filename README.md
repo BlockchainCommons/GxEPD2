@@ -1,4 +1,13 @@
 # GxEPD2
+
+_This repo contains a third-party module that has been cloned to the BlockchainCommons repo for ease of installation or compilation of our own projects. The module remains under its original ownership and licensing requirements, and all changes made to this repo fall under that original license._ 
+
+**Original Source:** [GxEPD2 repo](https://github.com/ZinggJM/GxEPD2)
+
+**Linked BlockchainCommons Project:* [LetheKit](https://github.com/BlockchainCommons/bc-lethekit)
+
+<hr>
+
 ## Arduino Display Library for SPI E-Paper Displays
 
 - With full Graphics and Text support using Adafruit_GFX
