@@ -321,7 +321,9 @@ void GxEPD2_154_D67::_PowerOff()
 
 void GxEPD2_154_D67::_InitDisplay()
 {
-  if (_hibernating) _reset();
+  // https://github.com/BlockchainCommons/bc-lethekit/issues/45#issuecomment-648915585
+  // if (_hibernating) _reset();
+  _reset();
   delay(10); // 10ms according to specs
   _writeCommand(0x12); // soft reset
   delay(10); // 10ms according to specs
